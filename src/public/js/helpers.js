@@ -167,20 +167,20 @@ const renderPlugin = (url) => `
                                 
                     // We select the recommendation icons and their messages according to the color of the maximum value
                     if (color=='#89d571') {
-                        document.getElementById("dep").innerHTML = '<img src="images/depgre.jpg" width="100%" height="5%" title="Good time to play sports"/>';
-                        document.getElementById("mayores").innerHTML = '<img src="images/mayoresgre.jpg"  width="100%" height="5%" title="Good time for a walk"/>';
-                        document.getElementById("family").innerHTML = '<img src="images/familygre.jpg"   width="100%" height="5%" title="Good time to go out"/>';
-                        document.getElementById("respira").innerHTML = '<img src="images/respiragre.jpg" width="100%" height="5%" title="Good time to enjoy the outdoors"/>';
+                        document.getElementById("dep").innerHTML = '<img src="images/depgre.jpg" width="100%" height="83" title="Good time to play sports"/>';
+                        document.getElementById("mayores").innerHTML = '<img src="images/mayoresgre.jpg"  width="100%" height="83" title="Good time for a walk"/>';
+                        document.getElementById("family").innerHTML = '<img src="images/familygre.jpg"   width="100%" height="83" title="Good time to go out"/>';
+                        document.getElementById("respira").innerHTML = '<img src="images/respiragre.jpg" width="100%" height="83" title="Good time to enjoy the outdoors"/>';
                     } else if (color=='#ffff4d') {
-                        document.getElementById("dep").innerHTML = '<img src="images/depyel.jpg" width="100%" height="5%" title="Play sports in green areas"/>';
-                        document.getElementById("mayores").innerHTML = '<img src="images/mayoresyel.jpg"  width="100%" height="5%" title="Stroll through green areas"/>';
-                        document.getElementById("family").innerHTML = '<img src="images/familyyel.jpg"   width="100%" height="5%" title="Stroll through wooded areas"/>';
-                        document.getElementById("respira").innerHTML = '<img src="images/respirayel.jpg" width="100%" height="5%" title="Avoid intense physical activity outdoors"/>';
+                        document.getElementById("dep").innerHTML = '<img src="images/depyel.jpg" width="100%" height="83" title="Play sports in green areas"/>';
+                        document.getElementById("mayores").innerHTML = '<img src="images/mayoresyel.jpg"  width="100%" height="83" title="Stroll through green areas"/>';
+                        document.getElementById("family").innerHTML = '<img src="images/familyyel.jpg"   width="100%" height="83" title="Stroll through wooded areas"/>';
+                        document.getElementById("respira").innerHTML = '<img src="images/respirayel.jpg" width="100%" height="83" title="Avoid intense physical activity outdoors"/>';
                     } else if (color=='firebrick') {
-                        document.getElementById("dep").innerHTML = '<img src="images/depred.jpg" width="100%" height="5%" title="Do not practice sports outdoors"/>';
-                        document.getElementById("mayores").innerHTML = '<img src="images/mayoresred.jpg"  width="100%" height="5%" title="This is not a good time to walk"/>';
-                        document.getElementById("family").innerHTML = '<img src="images/familyred.jpg"   width="100%" height="5%" title="Better stay home"/>';
-                        document.getElementById("respira").innerHTML = '<img src="images/respirared.jpg" width="100%" height="5%" title="Do not go out if you have breathing problems"/>';
+                        document.getElementById("dep").innerHTML = '<img src="images/depred.jpg" width="100%" height="83" title="Do not practice sports outdoors"/>';
+                        document.getElementById("mayores").innerHTML = '<img src="images/mayoresred.jpg"  width="100%" height="83" title="This is not a good time to walk"/>';
+                        document.getElementById("family").innerHTML = '<img src="images/familyred.jpg"   width="100%" height="83" title="Better stay home"/>';
+                        document.getElementById("respira").innerHTML = '<img src="images/respirared.jpg" width="100%" height="83" title="Do not go out if you have breathing problems"/>';
                     }     
         })
             
